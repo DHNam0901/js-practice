@@ -8,3 +8,9 @@ c = c.toFixed(2);
 console.log("Diện tích hình tròn là: " + s);
 console.log("Chu vi hình tròn là: " + c);
 //bài 5
+let a = Number(prompt("Nhập số chiều dài:"));
+let b = Number(prompt("Nhập số chiều rộng:"));
+let dienTich = a * b;
+let chuVi = (a + b) * 2;
+console.log("Diện tích hình chữ nhật là: " + dienTich);
+console.log("Chu vi hình chữ nhật là: " + chuVi);
