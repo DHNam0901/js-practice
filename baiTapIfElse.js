@@ -21,3 +21,27 @@ if(BMI < 18.5){
 }else{
     console.log("Béo phì");
 }
+//bai 9
+let nam =Number(prompt("Nhập năm"));
+if(nam%4==0 && nam%100!==0 || nam%400==0){
+    console.log("Năm nhuận");
+}else{
+    console.log("Không phải năm nhuận");
+}
+//bai10
+let thang = Number(prompt("Nhập tháng"));
+if(thang == 1 || thang == 3 || thang == 5 || thang == 7 || thang == 8 || thang == 10 || thang == 12){
+    console.log("Tháng có 31 ngày");
+}else if(thang == 4 || thang == 6 || thang == 9 || thang == 11){
+    console.log("Tháng có 30 ngày");
+}else if(thang == 2){
+    let nam =Number(prompt("Nhập năm"));
+    if(nam%4==0 && nam%100!==0 || nam%400==0){
+        console.log("thang co 29 ngay");
+    }else{
+        console.log("thang co 28 ngay");
+    }
+}
+else{
+    console.log("Tháng không hợp lệ");
+}
